@@ -1,0 +1,5 @@
+numpy>=1.22
+scipy>=1.8
+matplotlib>=3.5
+PyYAML>=6.0
+# tkinter is included with Python by default on most systems
