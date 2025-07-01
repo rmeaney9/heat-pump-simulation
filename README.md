@@ -8,12 +8,12 @@ Developed for the **Computational Methods and Modelling 3** course at the Univer
 
 ## Features
 
--  **ODE-based thermal model** using `scipy.solve_ivp` (RK45)  
--  **Dynamic tank temperature simulation** under variable building heat loads  
--  **COP curve fitting** using manufacturer data and empirical models  
--  **On/off heat pump control logic** with fixed setpoint thresholds  
--  **Custom GUI** (Tkinter) for parameter inputs, live plot outputs, and reset functionality  
--  **Stochastic modeling** of hot water demand with peak-time bias  
+-  ODE-based thermal model** using `scipy.solve_ivp` (RK45)  
+-  Dynamic tank temperature simulation** under variable building heat loads  
+-  COP curve fitting** using manufacturer data and empirical models  
+-  On/off heat pump control logic** with fixed setpoint thresholds  
+-  Custom GUI** (Tkinter) for parameter inputs, live plot outputs, and reset functionality  
+-  Stochastic modeling** of hot water demand with peak-time bias  
 -  Scenario analysis across 3 building types: Office, Warehouse, and Library  
 -  Includes engineering report and full YAML-configured inputs
 
@@ -34,6 +34,9 @@ pip install -r requirements.txt
 ```
 ---
 ## How to Run
+```bash
+python heat_pump_simulation.py
+```
 
 ## Output Metrics
 
